@@ -8,9 +8,9 @@
 
 #import "ViewController.h"
 
-static NSString * const kViewControllerPlaybackServicePolicyKey = @"BCpkADawqM0ZXsbRNOVVi-pMCK4K5iIZEBZQyVq5nV8sp8m47ua6r84ibaEnNa6tmFNcmuyb3D7Xl9h_NNBImikzUvHPZCBxO5BOlwKA9MTyBPfvLItNLgIYm27VagaeymPshjcQTV7lJgoY";
-static NSString * const kViewControllerAccountID = @"4005328949001";
-static NSString * const kViewControllerVideoID = @"5714150331001";
+static NSString * const kViewControllerPlaybackServicePolicyKey = @" PolicyKey ";
+static NSString * const kViewControllerAccountID = @" AccountID ";
+static NSString * const kViewControllerVideoID = @" VideoID ";
 
 @interface ViewController () <BCOVPlaybackControllerDelegate>
 

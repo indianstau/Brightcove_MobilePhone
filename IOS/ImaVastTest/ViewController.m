@@ -13,13 +13,12 @@
 
 #import "ViewController.h"
 
-static NSString * const kViewControllerPlaybackServicePolicyKey = @"BCpkADawqM0ZXsbRNOVVi-pMCK4K5iIZEBZQyVq5nV8sp8m47ua6r84ibaEnNa6tmFNcmuyb3D7Xl9h_NNBImikzUvHPZCBxO5BOlwKA9MTyBPfvLItNLgIYm27VagaeymPshjcQTV7lJgoY";
-static NSString * const kViewControllerAccountID = @"4005328949001";
-static NSString * const kViewControllerVideoID = @"5714150331001";
+static NSString * const kViewControllerPlaybackServicePolicyKey = @"PolicyKey";
+static NSString * const kViewControllerAccountID = @"AccountID";
+static NSString * const kViewControllerVideoID = @"VideoID";
 
 static NSString * const kViewControllerIMAPublisherID = @"insertyourpidhere";
 static NSString * const kViewControllerIMALanguage = @"en";
-//static NSString * const kVIEWControllerIMAVASTResponseAdTag = @"https://pubads.g.doubleclick.net/gampad/ads?sz=1280x720&iu=/18689016/setn_video_pre-roll_1280x720_2&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]";
 
 static NSString * const kVIEWControllerIMAVASTResponseAdTag = @"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=";
 

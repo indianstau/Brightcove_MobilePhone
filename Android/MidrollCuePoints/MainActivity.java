@@ -63,7 +63,7 @@ public class MainActivity extends BrightcovePlayer {
         options.put("video_fields", StringUtil.join(values, ","));
 
         Catalog catalog = new Catalog(eventEmitter, getString(R.string.account_id), getString(R.string.policy_key));
-//        catalog.findVideoByID("5714150331001", new VideoListener() {
+//        catalog.findVideoByID("", new VideoListener() {
 //            @Override
 //            public void onVideo(Video video) {
 //                brightcoveVideoView.add(video);

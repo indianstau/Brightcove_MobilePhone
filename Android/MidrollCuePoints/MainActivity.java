@@ -83,7 +83,6 @@ public class MainActivity extends BrightcovePlayer {
 
     private String[] googleAds = {
             "http://pubads.g.doubleclick.net/gampad/ads?sz=400x300&iu=%2F6062%2Fhanna_MA_group%2Fvideo_comp_app&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&m_ast=vast&url=[referrer_url]&correlator=[timestamp]"
-//           "https://pubads.g.doubleclick.net/gampad/ads?sz=1280x720&iu=/18689016/setn_video_pre-roll_1280x720_2&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
     };
 
     private void setupCuePoints(Source source) {

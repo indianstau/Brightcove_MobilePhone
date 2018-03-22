@@ -43,7 +43,7 @@ dependencies {
     //compile 'com.android.support:support-v4:26.+'
     //compile 'com.android.support:recyclerview-v7:26.+'
     //compile 'com.android.support:support-vector-drawable:26.+'
-    //compile 'com.brightcove.player:exoplayer2:6.0.1'
+    //compile 'com.brightcove.player:exoplayer2:6.0.2'
     //compile 'com.google.android.gms:play-services-ads:11.0.4'
     
     compile 'com.google.ads.interactivemedia.v3:interactivemedia:3.7.4'

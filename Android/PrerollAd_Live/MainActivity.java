@@ -76,6 +76,17 @@ public class MainActivity extends BrightcovePlayer {
                 brightcoveVideoView.seekToLive();
             }
         });
+        //solve the HLS with Token + Preroll ad problem 
+        //when it play will stuck on android player.
+        eventEmitter.on(EventType.ERROR, new EventListener(){
+            @Override
+            public void processEvent(Event event){
+                System.out.print(event);
+                Log.v("Error", event.toString());
+                brightcoveVideoView.stopPlayback();
+                brightcoveVideoView.seekToLive();
+            }
+        });
         eventEmitter.on(GoogleIMAEventType.ADS_REQUEST_FOR_VIDEO, new EventListener() {
             @Override
             public void processEvent(Event event) {

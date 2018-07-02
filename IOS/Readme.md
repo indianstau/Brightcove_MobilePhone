@@ -13,7 +13,7 @@ It's dependencies Cocoapods in your project.
 
 3. change profile content (like Brightcove-Player-Core) then  $ pod install  
 
-P.S Here also Objective-c code.  
+P.S Here is for Objective-c code note.  
 
 
 

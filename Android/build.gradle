@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+//(Module:app)
+
 android {
     compileSdkVersion 27
     defaultConfig {

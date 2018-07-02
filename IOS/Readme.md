@@ -1,4 +1,4 @@
-##### CocoaPod  
+##### CocoaPods  
 [Cocoapods](https://cocoapods.org/)  
 It's dependencies Cocoapods in your project.  
   

@@ -34,4 +34,5 @@ Cmd: $pod deintegrate
      $pod install  
   
 
+If two language have simulator issue, try reopen Xcode or clean build, or check dependencies and SDK exist, and file is correct  
 P.S. Podfile for Swift and Objective-c are different

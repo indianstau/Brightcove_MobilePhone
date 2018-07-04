@@ -1,0 +1,13 @@
+source 'https://github.com/brightcove/BrightcoveSpecs.git'
+
+platform :ios, ’10.0’
+
+use_frameworks!
+
+target 'Ana_application_S' do
+
+    pod 'Brightcove-Player-Core/dynamic’
+
+end
+
+

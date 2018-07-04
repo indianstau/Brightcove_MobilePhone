@@ -15,7 +15,7 @@ It's dependencies Cocoapods in your project.
 
 P.S Here is for Objective-c code note.  
 
-### Note  
+### Note  # J 4, 2018
   
 When something is update  
 You need to update Cocoapods    

@@ -1,4 +1,4 @@
-##### CocoaPods  
+## CocoaPods  
 [Cocoapods](https://cocoapods.org/)  
 It's dependencies Cocoapods in your project.  
   
@@ -23,6 +23,15 @@ If Cocoapods have issue re install
   
 #### For Swift   
 If not such brightcoveSDK moudle   
-try clean bliud  
+Try clean bliud  win + Alt + Shift + k  
+
+#### For Objective-c  
+  
+Error :  framework not found Pods_"project_name"  
+Try   
+Under your file project  
+Cmd: $pod deintegrate  
+     $pod install  
   
 
+P.S. Podfile for Swift and Objective-c are different

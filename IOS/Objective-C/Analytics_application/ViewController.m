@@ -47,7 +47,8 @@ static NSString * const kViewControllerVideoID = @"";
     //_playbackController = [BCOVPlayerSDKManager.sharedManager createPlaybackController];
     
     BCOVPlayerSDKManager *manager =[BCOVPlayerSDKManager sharedManager];
-    _playbackController = [manager createPlaybackControllerWithViewStrategy:[manager defaultControlsViewStrategy]];
+    _playbackController = [manager createPlaybackControllerWithViewStrategy:nil];
+//     _playbackController = [manager createPlaybackControllerWithViewStrategy:[manager defaultControlsViewStrategy]];
     
     _playbackController.analytics.account = kViewControllerAccountID; // optional
     
